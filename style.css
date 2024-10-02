@@ -1,0 +1,254 @@
+*{ 
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f8f8f8;
+}
+
+.navbar {
+   background-color: #0b0909;
+   color: #fff;
+   padding: 1rem;
+}
+
+.navbar-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar-logo {
+   font-size: 1.7rem;
+   color: #fff;
+   text-decoration: none;
+}
+
+.navbar-menu {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   height:70px;
+}
+
+.navbar-item {
+   text-decoration: none;
+   color: white; 
+   padding: 14px 20px; /* Padding for clickable area */
+   display: block; 
+} 
+ 
+ .navbar-item:hover { 
+     background-color: #bcabab; /*Hover effect */ 
+     border-radius:3px; /*Rounded corners on hover */
+}  
+
+ .navbar-link { 
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.8rem;
+   transition: color 0.3s;
+}  
+
+#Home {   
+ background: url('https://via.placeholder.com/1200x400');
+   height: 250px;
+   display:inline;
+   justify-content: center;
+   align-items:center;
+   color: #fff;
+   text-align: center; 
+ }
+
+#pic { 
+   background-image: url('https://images.pexels.com/photos/459469/pexels-photo-459469.jpeg?cs=srgb&dl=basil-delicious-food-459469.jpg&fm=jpg');
+   background-size:cover;
+   text-align: center;
+   padding: 50px 0;
+   display:flex;
+   justify-content:space-evenly;
+   align-items: center;
+   height: 200px;  
+    width: 100%;
+    background-position:center; 
+}
+
+#pic h1 {
+   font-size: 3rem;
+   height: 150px; 
+   width: 100%;
+    color: rgb(17, 12, 12); /*Ensure the text is visible over the image  */
+     text-align: center;  
+}
+
+.recipe-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 2.5rem;
+} 
+
+
+.ingredients-heading {
+    font-weight: bold;
+}
+
+.instructions-heading {
+    font-weight: bold;
+}
+
+ /* gajar halwa style */
+.gajarhalwa.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.gajarhalwa.recipe-image {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.gajarhalwa.details {
+    max-width: 55%;
+}
+
+   /* pav bhaji style */
+
+.pavbhaji .content {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.pavbhaji .recipe-image {
+   max-width: 40%;
+   height: auto;
+   margin-right: 20px;
+}
+
+.pavbhaji .details {
+   max-width: 55%;
+}
+
+
+/* veg biryani style */
+
+.veg-biryani {
+   padding: 20px; /* Optional: Add some padding */
+}
+.veg-biryani .content {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.veg-biryani .recipe-image {
+   max-width: 40%;
+   height: auto;
+   margin-right: 20px;
+}
+
+.veg-biryani .details {
+   max-width: 55%;
+}
+
+.content {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.recipe-image {
+   max-width: 40%;
+   height: auto; /* Maintain aspect ratio */
+   margin-right: 20px;
+}
+
+
+ .recipe-card {
+   background-color: #eec1a3;
+   border-radius: 3px;
+   box-shadow: 0 3px 6px rgba(10, 10, 10, 0.1);
+   margin: 2rem;
+   padding: 1.3rem;
+   width: 240px;
+   text-align: center;
+}
+
+.recipe-card img {
+   width: 100%;
+   border-radius: 4px;
+
+   
+}
+
+.recipe-card h2 {
+   font-size: 1.9rem;
+   margin: 1rem 0;
+   color:#090707
+}
+
+.recipe-card p {
+   font-size: 1.2rem;
+   color: #340808;
+
+} 
+
+ .recipe-card h3 {
+   font-size: 1.2rem;
+   margin: 1rem 0 0.5rem;
+
+}
+
+.recipe-card ul, .recipe-card ol {
+   text-align:right;
+   padding-left: 1.5rem;
+}
+
+.recipe-card li {
+   margin-bottom: 0.5rem;
+}
+
+.recipe-card:hover {
+   transform: scale(1.2);
+   background-color: #f26f7353;
+}
+
+
+
+#contact {
+   text-align: center;
+   margin: 50px 0;
+}
+
+#contact h2 {
+   font-size: 3rem;
+   color: #090707; /* Dark grey text */
+   margin-bottom: 10px;
+}
+
+#contact p {
+   font-size: 2.5rem;
+   color: #555; /* Medium grey text */
+   margin: 5px 0;
+}
+
+#contact a {
+   color: #842312; /* Tomato color for links */
+   text-decoration: none;
+}
+
+#contact a:hover {
+   text-decoration: underline;
+   background-color: rgb(203, 199, 199);
+}
+
+  
+
+
